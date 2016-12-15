@@ -6,13 +6,18 @@
     "url": "https://github.com/evozonjs/evoping-client"
   },
   "dependencies": {
+    "chart.js": "^2.4.0",
+    "exports-loader": "^0.6.3",
+    "imports-loader": "^0.7.0",
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.4.1",
     "react-addons-transition-group": "^15.4.1",
+    "react-chartjs-2": "^1.6.0",
     "react-dom": "^15.3.2",
     "react-intl": "^2.1.5",
     "react-redux": "^4.4.5",
     "react-router": "^4.0.0-alpha.4",
+    "react-select": "^1.0.0-rc.2",
     "reactstrap": "^3.9.3",
     "redux": "^3.6.0",
     "redux-logger": "^2.6.1",
@@ -69,6 +74,7 @@
     "build": "cross-env NODE_ENV='production' gulp dist",
     "start": "node server/server.js",
     "test": "jest",
+    "dev": "gulp dev",
     "eslint-run": "gulp pre-commit"
   },
   "pre-commit": [

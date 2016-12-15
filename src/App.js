@@ -3,7 +3,9 @@ import { BrowserRouter, Match } from 'react-router';
 import { Provider } from 'react-redux';
 import store from 'store/store';
 import 'assets/styles/styles.scss';
-import MainContainer from 'modules/main';
+import 'chart.js';
+import MainContainer from 'modules/main/MainContainer';
+import 'utils/apiGenerateFake';
 
 export default function App() {
   return (
